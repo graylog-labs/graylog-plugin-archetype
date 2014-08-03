@@ -1,6 +1,14 @@
 Graylog2 Maven Plugin Archetype
 ===============================
 
+## Creating a new plugin project
+
+```
+$ mvn archetype:generate -Dfilter=org.graylog2:
+```
+
+### Complete example
+
 ```
 $ mvn archetype:generate -Dfilter=org.graylog2:
 [...]
