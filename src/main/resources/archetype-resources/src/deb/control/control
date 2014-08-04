@@ -1,0 +1,7 @@
+Package: ${project.artifactId}
+Version: ${project.version}
+Architecture: all
+Maintainer: info@example.com
+Section: web
+Priority: optional
+Description: Graylog2 ${project.artifactId} plugin.
