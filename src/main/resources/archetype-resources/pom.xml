@@ -19,6 +19,7 @@
             <groupId>org.graylog2</groupId>
             <artifactId>graylog2-plugin</artifactId>
             <version>${graylog2.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -33,7 +34,7 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-            <!--
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -50,7 +51,6 @@
                     </execution>
                 </executions>
             </plugin>
-            -->
         </plugins>
     </build>
 </project>
