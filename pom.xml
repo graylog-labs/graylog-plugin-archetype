@@ -15,7 +15,7 @@
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with Graylog2.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with Graylog2.  If not, see <http://www.gnu.org/licenses />.
   -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -31,7 +31,7 @@
 
     <groupId>org.graylog2</groupId>
     <artifactId>graylog2-plugin-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.90.0</version>
     <name>graylog2-plugin-archetype</name>
     <url>http://graylog2.org/</url>
     <packaging>maven-archetype</packaging>
