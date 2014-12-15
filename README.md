@@ -45,3 +45,12 @@ pluginClassName: NullOutput
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 ```
+
+## Development
+
+For running the locally built and installed Maven archetype you will have to add the `-DarchetypeCatalog=local` parameter.
+Otherwise Maven tries to fetch the Maven archetype from the remote repository (i. e. Maven Central).
+
+```
+mvn archetype:generate -DarchetypeGroupId=org.graylog2 -DarchetypeArtifactId=graylog2-plugin-archetype -DarchetypeCatalog=local
+```
