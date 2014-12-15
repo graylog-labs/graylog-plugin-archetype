@@ -8,8 +8,6 @@ import org.graylog2.plugin.PluginModule;
 public class ${pluginClassName}Module extends PluginModule {
     @Override
     protected void configure() {
-        registerPlugin(${pluginClassName}Metadata.class);
-
         /* Register your plugin types here.
          *
          * Examples:
