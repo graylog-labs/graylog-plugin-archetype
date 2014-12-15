@@ -1,13 +1,15 @@
-Graylog2 Plugin - ${pluginClassName}
-====================================
+# Graylog2 ${pluginClassName} Plugin
 
 Welcome to your new Graylog2 plugin!
 
+Please refer to https://www.graylog2.org/resources/documentation/general/plugins for documentation on how to write
+plugins for Graylog2.
 
-Getting started for users
--------------------------
 
-This project is using Maven and requires Java 7 or higher.
+Getting started
+---------------
+
+This project is using Maven 3 and requires Java 7 or higher. The plugin will require Graylog2 0.93.0 or higher.
 
 * Clone this repository.
 * Run `mvn package` to build a JAR file.
