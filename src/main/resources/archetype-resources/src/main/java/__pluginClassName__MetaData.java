@@ -1,9 +1,12 @@
 package ${package};
 
 import org.graylog2.plugin.PluginMetaData;
+import org.graylog2.plugin.ServerStatus;
 import org.graylog2.plugin.Version;
 
 import java.net.URI;
+import java.util.Collections;
+import java.util.Set;
 
 /**
  * Implement the PluginMetaData interface here.
@@ -44,6 +47,11 @@ public class ${pluginClassName}MetaData implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-        return new Version(0, 93, 0);
+        return new Version(1, 0, 0);
+    }
+
+    @Override
+    public Set<ServerStatus.Capability> getRequiredCapabilities() {
+        return Collections.emptySet();
     }
 }
