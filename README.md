@@ -1,20 +1,20 @@
-Graylog2 Plugin Maven Archetype
-===============================
+Graylog Plugin Maven Archetype
+==============================
 
 ## Creating a new plugin project
 
 ```
-$ mvn archetype:generate -DarchetypeGroupId=org.graylog2 -DarchetypeArtifactId=graylog2-plugin-archetype
+$ mvn archetype:generate -DarchetypeGroupId=org.graylog -DarchetypeArtifactId=graylog-plugin-archetype
 ```
 
 ### Complete example
 
 ```
-$ mvn archetype:generate -DarchetypeGroupId=org.graylog2 -DarchetypeArtifactId=graylog2-plugin-archetype
+$ mvn archetype:generate -DarchetypeGroupId=org.graylog -DarchetypeArtifactId=graylog-plugin-archetype
 [...]
-[INFO] --- maven-archetype-plugin:2.2:generate (default-cli) @ graylog2-plugin-archetype ---
+[INFO] --- maven-archetype-plugin:2.2:generate (default-cli) @ graylog-plugin-archetype ---
 [INFO] Generating project in Interactive mode
-[INFO] Archetype [org.graylog2:graylog2-plugin-archetype:0.90.0] found in catalog local
+[INFO] Archetype [org.graylog:graylog-plugin-archetype:1.0.0-beta.2] found in catalog local
 Define value for property 'groupId': : org.graylog2
 Define value for property 'artifactId': : plugin-output-null
 [INFO] Using property: version = 1.0.0-SNAPSHOT
@@ -28,7 +28,7 @@ package: org.graylog2
 pluginClassName: NullOutput
  Y: : y
 [INFO] ----------------------------------------------------------------------------
-[INFO] Using following parameters for creating project from Archetype: graylog2-plugin-archetype:0.90.0
+[INFO] Using following parameters for creating project from Archetype: graylog-plugin-archetype:1.0.0-beta.2
 [INFO] ----------------------------------------------------------------------------
 [INFO] Parameter: groupId, Value: org.graylog2
 [INFO] Parameter: artifactId, Value: plugin-output-null
@@ -52,5 +52,5 @@ For running the locally built and installed Maven archetype you will have to add
 Otherwise Maven tries to fetch the Maven archetype from the remote repository (i. e. Maven Central).
 
 ```
-mvn archetype:generate -DarchetypeGroupId=org.graylog2 -DarchetypeArtifactId=graylog2-plugin-archetype -DarchetypeCatalog=local
+mvn archetype:generate -DarchetypeGroupId=org.graylog -DarchetypeArtifactId=graylog-plugin-archetype -DarchetypeCatalog=local
 ```
