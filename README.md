@@ -1,4 +1,4 @@
-Graylog2 Maven Plugin Archetype
+Graylog2 Plugin Maven Archetype
 ===============================
 
 ## Creating a new plugin project
