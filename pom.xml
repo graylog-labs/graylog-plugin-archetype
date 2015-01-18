@@ -31,7 +31,7 @@
 
     <groupId>org.graylog</groupId>
     <artifactId>graylog-plugin-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0-beta.2</version>
     <name>graylog-plugin-archetype</name>
     <url>http://graylog2.org/</url>
     <packaging>maven-archetype</packaging>
@@ -48,7 +48,7 @@
         <connection>scm:git:git://github.com/Graylog2/graylog2-plugin-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:Graylog2/graylog2-plugin-archetype.git</developerConnection>
         <url>https://github.com/Graylog2/graylog2-plugin-archetype</url>
-        <tag>HEAD</tag>
+        <tag>1.0.0-beta.2</tag>
     </scm>
 
     <issueManagement>
@@ -58,7 +58,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <gpg.keyname>B1606F22</gpg.keyname>
         <tagNameFormat>@{project.version}</tagNameFormat>
     </properties>
 
@@ -96,6 +95,16 @@
                 <version>2.2</version>
             </extension>
         </extensions>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <configuration>
+                    <keyname>B1606F22</keyname>
+                </configuration>
+            </plugin>
+        </plugins>
 
         <pluginManagement>
             <plugins>
