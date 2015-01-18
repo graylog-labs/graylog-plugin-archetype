@@ -29,10 +29,10 @@
         <version>9</version>
     </parent>
 
-    <groupId>org.graylog2</groupId>
-    <artifactId>graylog2-plugin-archetype</artifactId>
+    <groupId>org.graylog</groupId>
+    <artifactId>graylog-plugin-archetype</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>graylog2-plugin-archetype</name>
+    <name>graylog-plugin-archetype</name>
     <url>http://graylog2.org/</url>
     <packaging>maven-archetype</packaging>
 
