@@ -33,7 +33,7 @@
     <artifactId>graylog-plugin-archetype</artifactId>
     <version>1.0.0-beta.3-SNAPSHOT</version>
     <name>graylog-plugin-archetype</name>
-    <url>http://graylog2.org/</url>
+    <url>https://www.graylog2.org/</url>
     <packaging>maven-archetype</packaging>
 
     <developers>
