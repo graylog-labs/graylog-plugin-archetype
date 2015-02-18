@@ -4,5 +4,5 @@ Architecture: all
 Maintainer: Your Name <info@example.com>
 Section: web
 Priority: optional
-Depends: graylog2-server | graylog2-radio
+Depends: graylog-server | graylog-radio
 Description: [[description]]

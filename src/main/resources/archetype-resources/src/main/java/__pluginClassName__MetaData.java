@@ -31,7 +31,7 @@ public class ${pluginClassName}MetaData implements PluginMetaData {
     @Override
     public URI getURL() {
         // TODO Insert correct plugin website
-        return URI.create("https://www.graylog2.org/");
+        return URI.create("https://www.graylog.org/");
     }
 
     @Override
