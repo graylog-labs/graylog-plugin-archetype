@@ -31,7 +31,7 @@
 
     <groupId>org.graylog</groupId>
     <artifactId>graylog-plugin-archetype</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>graylog-plugin-archetype</name>
     <url>https://www.graylog.org/</url>
     <packaging>maven-archetype</packaging>
@@ -40,7 +40,7 @@
         <connection>scm:git:git://github.com/Graylog2/graylog2-plugin-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:Graylog2/graylog2-plugin-archetype.git</developerConnection>
         <url>https://github.com/Graylog2/graylog2-plugin-archetype</url>
-        <tag>1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
