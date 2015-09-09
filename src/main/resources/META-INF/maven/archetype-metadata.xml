@@ -10,6 +10,26 @@
         <requiredProperty key="version">
             <defaultValue>1.0.0-SNAPSHOT</defaultValue>
         </requiredProperty>
+
+        <requiredProperty key="githubRepo">
+            <defaultValue/>
+        </requiredProperty>
+
+        <requiredProperty key="requiredGraylogVersion">
+            <defaultValue>1.2</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="currentYear">
+            <defaultValue/>
+        </requiredProperty>
+
+        <requiredProperty key="ownerName">
+            <defaultValue/>
+        </requiredProperty>
+
+        <requiredProperty key="ownerEmail">
+            <defaultValue/>
+        </requiredProperty>
     </requiredProperties>
 
     <fileSets>
@@ -27,11 +47,21 @@
             </includes>
         </fileSet>
 
+        <fileSet filtered="true"  encoding="UTF-8">
+            <directory>src/deb</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+
         <fileSet filtered="true" encoding="UTF-8">
             <directory></directory>
             <includes>
                 <include>.gitignore</include>
+                <include>.travis.yml</include>
+                <include>LICENSE</include>
                 <include>README.md</include>
+                <include>GETTING-STARTED.md</include>
             </includes>
         </fileSet>
     </fileSets>

@@ -114,6 +114,11 @@
                     <artifactId>maven-gpg-plugin</artifactId>
                     <version>1.5</version>
                 </plugin>
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <!-- Using 2.6 instead of 2.7 because of this: https://issues.apache.org/jira/browse/MRESOURCES-190 -->
+                    <version>2.6</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
