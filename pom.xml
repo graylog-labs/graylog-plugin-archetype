@@ -37,15 +37,15 @@
     <packaging>maven-archetype</packaging>
 
     <scm>
-        <connection>scm:git:git://github.com/Graylog2/graylog2-plugin-archetype.git</connection>
-        <developerConnection>scm:git:git@github.com:Graylog2/graylog2-plugin-archetype.git</developerConnection>
-        <url>https://github.com/Graylog2/graylog2-plugin-archetype</url>
+        <connection>scm:git:git://github.com/Graylog2/graylog-plugin-archetype.git</connection>
+        <developerConnection>scm:git:git@github.com:Graylog2/graylog-plugin-archetype.git</developerConnection>
+        <url>https://github.com/Graylog2/graylog-plugin-archetype</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/Graylog2/graylog2-plugin-archetype/issues</url>
+        <url>https://github.com/Graylog2/graylog-plugin-archetype/issues</url>
     </issueManagement>
 
     <properties>

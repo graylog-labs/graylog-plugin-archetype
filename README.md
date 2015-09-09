@@ -1,6 +1,8 @@
 Graylog Plugin Maven Archetype
 ==============================
 
+See our latest documentation on [writing plugins](http://docs.graylog.org/en/latest/pages/plugins.html).
+
 ## Creating a new plugin project
 
 ```
@@ -12,38 +14,38 @@ $ mvn archetype:generate -DarchetypeGroupId=org.graylog -DarchetypeArtifactId=gr
 ```
 $ mvn archetype:generate -DarchetypeGroupId=org.graylog -DarchetypeArtifactId=graylog-plugin-archetype
 [...]
-[INFO] --- maven-archetype-plugin:2.2:generate (default-cli) @ graylog-plugin-archetype ---
 [INFO] Generating project in Interactive mode
-[INFO] Archetype [org.graylog:graylog-plugin-archetype:1.0.0-beta.2] found in catalog local
-Define value for property 'groupId': : org.graylog2
-Define value for property 'artifactId': : plugin-output-null
+[INFO] Archetype [org.graylog:graylog-plugin-archetype:1.0.1] found in catalog remote
+Define value for property 'groupId': : org.graylog.plugins
+Define value for property 'artifactId': : graylog-plugin-twitter
 [INFO] Using property: version = 1.0.0-SNAPSHOT
-Define value for property 'package':  org.graylog2: :
-Define value for property 'pluginClassName':  : : NullOutput
+Define value for property 'package':  org.graylog.plugins: : org.graylog.plugins.twitter
+Define value for property 'pluginClassName':  : : Twitter
 Confirm properties configuration:
-groupId: org.graylog2
-artifactId: plugin-output-null
+groupId: org.graylog.plugins
+artifactId: graylog-plugin-twitter
 version: 1.0.0-SNAPSHOT
-package: org.graylog2
-pluginClassName: NullOutput
+package: org.graylog.plugins.twitter
+pluginClassName: Twitter
  Y: : y
 [INFO] ----------------------------------------------------------------------------
-[INFO] Using following parameters for creating project from Archetype: graylog-plugin-archetype:1.0.0-beta.2
+[INFO] Using following parameters for creating project from Archetype: graylog-plugin-archetype:1.0.1
 [INFO] ----------------------------------------------------------------------------
-[INFO] Parameter: groupId, Value: org.graylog2
-[INFO] Parameter: artifactId, Value: plugin-output-null
+[INFO] Parameter: groupId, Value: org.graylog.plugins
+[INFO] Parameter: artifactId, Value: graylog-plugin-twitter
 [INFO] Parameter: version, Value: 1.0.0-SNAPSHOT
-[INFO] Parameter: package, Value: org.graylog2
-[INFO] Parameter: packageInPathFormat, Value: org/graylog2
-[INFO] Parameter: package, Value: org.graylog2
+[INFO] Parameter: package, Value: org.graylog.plugins.twitter
+[INFO] Parameter: packageInPathFormat, Value: org/graylog/plugins/twitter
+[INFO] Parameter: package, Value: org.graylog.plugins.twitter
 [INFO] Parameter: version, Value: 1.0.0-SNAPSHOT
-[INFO] Parameter: groupId, Value: org.graylog2
-[INFO] Parameter: pluginClassName, Value: NullOutput
-[INFO] Parameter: artifactId, Value: plugin-output-null
-[INFO] project created from Archetype in dir: plugin-output-null
+[INFO] Parameter: groupId, Value: org.graylog.plugins
+[INFO] Parameter: pluginClassName, Value: Twitter
+[INFO] Parameter: artifactId, Value: graylog-plugin-twitter
+[INFO] project created from Archetype in dir: /home/bernd/foo/graylog-plugin-twitter
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
+
 ```
 
 ## Development
