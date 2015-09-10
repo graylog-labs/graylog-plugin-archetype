@@ -2,7 +2,6 @@
 
 __Use this paragraph to enter a description of your plugin.__
 
-**Required Graylog version:** ${requiredGraylogVersion} and later
 
 Installation
 ------------

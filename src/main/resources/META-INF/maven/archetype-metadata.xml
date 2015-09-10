@@ -15,10 +15,6 @@
             <defaultValue/>
         </requiredProperty>
 
-        <requiredProperty key="requiredGraylogVersion">
-            <defaultValue>1.2</defaultValue>
-        </requiredProperty>
-
         <requiredProperty key="ownerName">
             <defaultValue/>
         </requiredProperty>
