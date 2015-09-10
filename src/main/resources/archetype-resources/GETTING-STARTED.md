@@ -6,14 +6,6 @@ Welcome to your new Graylog plugin!
 Please refer to http://docs.graylog.org/en/latest/pages/plugins.html for documentation on how to write
 plugins for Graylog.
 
-License
--------
-
-The default `pom.xml` file includes a license plugin for Maven. To add license headers
-to your source code files just execute `mvn license:check` and `mvn license:format`.
-
-The default license is the Apache 2 license.
-
 Travis CI
 ---------
 
