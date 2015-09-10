@@ -19,10 +19,6 @@
             <defaultValue>1.2</defaultValue>
         </requiredProperty>
 
-        <requiredProperty key="currentYear">
-            <defaultValue/>
-        </requiredProperty>
-
         <requiredProperty key="ownerName">
             <defaultValue/>
         </requiredProperty>
@@ -59,7 +55,6 @@
             <includes>
                 <include>.gitignore</include>
                 <include>.travis.yml</include>
-                <include>LICENSE</include>
                 <include>README.md</include>
                 <include>GETTING-STARTED.md</include>
             </includes>
