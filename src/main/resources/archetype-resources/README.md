@@ -1,7 +1,8 @@
 # ${pluginClassName} Plugin for Graylog
 
-__Use this paragraph to enter a description of your plugin.__
+[![Build Status](https://travis-ci.org/${githubRepo}.svg?branch=master)](https://travis-ci.org/${githubRepo})
 
+__Use this paragraph to enter a description of your plugin.__
 
 Installation
 ------------
@@ -41,4 +42,4 @@ $ mvn release:prepare
 $ mvn release:perform
 ```
 
-This sets the version numbers, creates a tag and pushes to GitHub. TravisCI will build the release artifacts and upload to GitHub automatically.
+This sets the version numbers, creates a tag and pushes to GitHub. Travis CI will build the release artifacts and upload to GitHub automatically.
