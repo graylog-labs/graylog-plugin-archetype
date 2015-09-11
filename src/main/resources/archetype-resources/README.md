@@ -4,6 +4,8 @@
 
 __Use this paragraph to enter a description of your plugin.__
 
+**Required Graylog version:** 1.2 and later
+
 Installation
 ------------
 
@@ -23,7 +25,7 @@ __Use this paragraph to document the usage of your plugin__
 Getting started
 ---------------
 
-This project is using Maven 3 and requires Java 7 or higher. The plugin will require Graylog 1.2.0 or higher.
+This project is using Maven 3 and requires Java 7 or higher.
 
 * Clone this repository.
 * Run `mvn package` to build a JAR file.
