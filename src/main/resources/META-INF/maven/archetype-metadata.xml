@@ -46,6 +46,20 @@
             </includes>
         </fileSet>
 
+        <fileSet filtered="true"  encoding="UTF-8">
+            <directory>src/web</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="true"  encoding="UTF-8">
+            <directory>templates</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+
         <fileSet filtered="true" encoding="UTF-8">
             <directory></directory>
             <includes>
@@ -53,6 +67,8 @@
                 <include>.travis.yml</include>
                 <include>README.md</include>
                 <include>GETTING-STARTED.md</include>
+                <include>package.json</include>
+                <include>webpack.config.js</include>
             </includes>
         </fileSet>
     </fileSets>
