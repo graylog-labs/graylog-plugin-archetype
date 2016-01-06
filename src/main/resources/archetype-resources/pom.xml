@@ -47,6 +47,12 @@
     <build>
         <resources>
             <resource><directory>build</directory></resource>
+            <resource>
+              <directory>src/main/resources</directory>
+              <excludes>
+                <exclude>**/*.properties</exclude>
+              </excludes>
+            </resource>
         </resources>
         <plugins>
             <plugin>
