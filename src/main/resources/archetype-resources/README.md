@@ -4,7 +4,7 @@
 
 __Use this paragraph to enter a description of your plugin.__
 
-**Required Graylog version:** 1.2 and later
+**Required Graylog version:** 2.0 and later
 
 Installation
 ------------
@@ -15,6 +15,17 @@ is the `plugins/` folder relative from your `graylog-server` directory by defaul
 and can be configured in your `graylog.conf` file.
 
 Restart `graylog-server` and you are done.
+
+Development
+-----------
+
+You can improve your development experience for the web interface part of your plugin
+dramatically by making use of hot reloading. To do this, do the following:
+
+* `git clone https://github.com/Graylog2/graylog2-server.git`
+* `cd graylog2-server/graylog2-web-interface`
+* `ln -s $YOURPLUGIN plugin/`
+* `npm install && npm start`
 
 Usage
 -----

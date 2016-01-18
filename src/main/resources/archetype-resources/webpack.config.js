@@ -1,6 +1,11 @@
 const PluginWebpackConfig = require('graylog-web-plugin').PluginWebpackConfig;
 const path = require('path');
-const BUILD_PATH = path.resolve(__dirname, 'build');
-const ENTRY_PATH = path.resolve(__dirname, 'src/web/index.jsx');
+const ROOT_PATH = path.resolve(__dirname);
+const BUILD_PATH = path.resolve(ROOT_PATH, 'build');
+const ENTRY_PATH = path.resolve(ROOT_PATH, 'src/web/index.jsx');
 
-module.exports = new PluginWebpackConfig('${package}.${pluginClassName}', { build_path: BUILD_PATH, entry_path: ENTRY_PATH });
+module.exports = new PluginWebpackConfig('${package}.${pluginClassName}', {
+  root_path: ROOT_PATH,
+  build_path: BUILD_PATH,
+  entry_path: ENTRY_PATH 
+});

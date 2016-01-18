@@ -7,7 +7,7 @@ PluginStore.register(new PluginManifest(packageJson, {
 
      Examples: */
 
-  // Adding a route to /sample, rendering the YourReactComponent when called:
+  // Adding a route to /sample, rendering YourReactComponent when called:
 
   // routes: [
   //  { path: '/sample', component: YourReactComponent },
