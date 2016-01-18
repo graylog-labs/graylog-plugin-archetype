@@ -7,3 +7,6 @@
 .settings/
 target/
 dependency-reduced-pom.xml
+node_modules
+node
+build
