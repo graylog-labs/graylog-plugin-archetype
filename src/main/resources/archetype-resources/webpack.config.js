@@ -8,4 +8,7 @@ module.exports = new PluginWebpackConfig('${package}.${pluginClassName}', {
   root_path: ROOT_PATH,
   build_path: BUILD_PATH,
   entry_path: ENTRY_PATH 
+},
+{
+  // Here goes your additional webpack configuration.
 });
