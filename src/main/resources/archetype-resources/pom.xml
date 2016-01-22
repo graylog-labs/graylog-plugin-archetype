@@ -34,15 +34,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <graylog2.version>2.0.0-SNAPSHOT</graylog2.version>
-        <graylog2.plugin-dir>/usr/share/graylog-server/plugin</graylog2.plugin-dir>
+        <graylog.version>2.0.0-SNAPSHOT</graylog.version>
+        <graylog.plugin-dir>/usr/share/graylog-server/plugin</graylog.plugin-dir>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.graylog2</groupId>
             <artifactId>graylog2-plugin</artifactId>
-            <version>${graylog2.version}</version>
+            <version>${graylog.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -144,7 +144,7 @@
                             <type>file</type>
                             <mapper>
                                 <type>perm</type>
-                                <prefix>${graylog2.plugin-dir}</prefix>
+                                <prefix>${graylog.plugin-dir}</prefix>
                                 <filemode>644</filemode>
                                 <user>root</user>
                                 <group>root</group>
@@ -173,7 +173,7 @@
                     <defaultGroupname>root</defaultGroupname>
                     <mappings>
                         <mapping>
-                            <directory>${graylog2.plugin-dir}</directory>
+                            <directory>${graylog.plugin-dir}</directory>
                             <sources>
                                 <source>
                                     <location>${project.build.directory}/</location>
