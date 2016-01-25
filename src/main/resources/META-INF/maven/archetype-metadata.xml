@@ -69,6 +69,7 @@
                 <include>GETTING-STARTED.md</include>
                 <include>package.json</include>
                 <include>webpack.config.js</include>
+                <include>build.config.js.sample</include>
             </includes>
         </fileSet>
     </fileSets>
