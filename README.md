@@ -50,7 +50,11 @@ pluginClassName: Twitter
 
 ## Development
 
-For running the locally built and installed Maven archetype you will have to add the `-DarchetypeCatalog=local` parameter.
+For running the locally built and installed Maven archetype you will have to clone this repository and
+run `mvn install` to install it locally.
+
+Once the package is locally installed, go to the location where you want to generate the plugin, and
+run the `archetype:generate` maven task as before, but adding the `-DarchetypeCatalog=local` parameter.
 Otherwise Maven tries to fetch the Maven archetype from the remote repository (i. e. Maven Central).
 
 ```
