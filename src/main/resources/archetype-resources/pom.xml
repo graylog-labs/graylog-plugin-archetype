@@ -41,7 +41,7 @@
     <dependencies>
         <dependency>
             <groupId>org.graylog2</groupId>
-            <artifactId>graylog2-plugin</artifactId>
+            <artifactId>graylog2-server</artifactId>
             <version>${graylog.version}</version>
             <scope>provided</scope>
         </dependency>
