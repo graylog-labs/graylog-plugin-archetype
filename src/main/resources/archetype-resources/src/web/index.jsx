@@ -10,7 +10,7 @@ PluginStore.register(new PluginManifest(packageJson, {
   // Adding a route to /sample, rendering YourReactComponent when called:
 
   // routes: [
-  //  { path: '/sample', component: YourReactComponent },
+  //  { path: '/sample', component: YourReactComponent, permissions: 'INPUTS_CREATE' },
   // ],
 
   // Adding an element to the top navigation pointing to /sample named "Sample":
