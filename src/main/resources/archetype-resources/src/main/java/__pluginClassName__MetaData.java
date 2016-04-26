@@ -47,7 +47,7 @@ public class ${pluginClassName}MetaData implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-        return new Version(1, 2, 0);
+        return new Version(2, 0, 0);
     }
 
     @Override
