@@ -52,9 +52,17 @@
             <resource><directory>build</directory></resource>
             <resource>
               <directory>src/main/resources</directory>
+              <filtering>true</filtering>
             </resource>
         </resources>
         <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <skipAssembly>true</skipAssembly>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
