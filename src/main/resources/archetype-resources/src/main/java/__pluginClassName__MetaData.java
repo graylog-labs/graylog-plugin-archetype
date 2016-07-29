@@ -12,6 +12,8 @@ import java.util.Set;
  * Implement the PluginMetaData interface here.
  */
 public class ${pluginClassName}MetaData implements PluginMetaData {
+    private static final String PLUGIN_PROPERTIES = "${groupId}.${artifactId}/graylog-plugin.properties";
+
     @Override
     public String getUniqueId() {
         return "${package}.${pluginClassName}Plugin";
@@ -24,19 +26,17 @@ public class ${pluginClassName}MetaData implements PluginMetaData {
 
     @Override
     public String getAuthor() {
-        // TODO Insert author name
-        return "${pluginClassName} author";
+        return "${ownerName} <${ownerEmail}>";
     }
 
     @Override
     public URI getURL() {
-        // TODO Insert correct plugin website
-        return URI.create("https://www.graylog.org/");
+        return URI.create("https://github.com/${githubRepo}");
     }
 
     @Override
     public Version getVersion() {
-        return new Version(1, 0, 0);
+        return Version.fromPluginProperties(getClass(), PLUGIN_PROPERTIES, "version", Version.from(0, 0, 0, "unknown"));
     }
 
     @Override
@@ -47,7 +47,7 @@ public class ${pluginClassName}MetaData implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-        return new Version(2, 0, 0);
+        return Version.fromPluginProperties(getClass(), PLUGIN_PROPERTIES, "graylog.version", Version.from(0, 0, 0, "unknown"));
     }
 
     @Override
