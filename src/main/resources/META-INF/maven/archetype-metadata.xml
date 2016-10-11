@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                       xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-                      name="vertx" partial="false">
+                      name="graylog-plugin" partial="false">
     <requiredProperties>
         <requiredProperty key="pluginClassName">
             <defaultValue/>
@@ -21,6 +21,10 @@
 
         <requiredProperty key="ownerEmail">
             <defaultValue/>
+        </requiredProperty>
+
+        <requiredProperty key="serverCheckoutPath">
+            <defaultValue>../graylog2-server</defaultValue>
         </requiredProperty>
     </requiredProperties>
 
@@ -69,7 +73,7 @@
                 <include>GETTING-STARTED.md</include>
                 <include>package.json</include>
                 <include>webpack.config.js</include>
-                <include>build.config.js.sample</include>
+                <include>build.config.js</include>
             </includes>
         </fileSet>
     </fileSets>
