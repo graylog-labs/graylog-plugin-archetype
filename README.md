@@ -1,3 +1,5 @@
+## WARNING: The Graylog Plugin Maven Archetype has moved and become a module in the [server repository](https://github.com/Graylog2/graylog2-server).
+
 Graylog Plugin Maven Archetype
 ==============================
 
